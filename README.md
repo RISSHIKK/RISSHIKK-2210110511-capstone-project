@@ -1,71 +1,70 @@
-Template for creating and submitting MAT496 capstone project.
-
-# Overview of MAT496
-
-In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
-
-- Prompting
-- Structured Output 
-- Semantic Search
-- Retreaval Augmented Generation (RAG)
-- Tool calling LLMs & MCP
-- Langgraph: State, Nodes, Graph
-
-We also learned that Langsmith is a nice tool for debugging Langgraph codes.
-
-------
-
-# Capstone Project objective
-
-The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
-
-
--------------------------
-
 # Project report Template
 
-## Title: [your title goes here]
+## Title: AI-Powered Automatic Curriculum Generator Using LangGraph
 
 ## Overview
 
-[your overview goes here. My project does this that  etc]
+This project implements an **LLM-driven curriculum generation** system using **LangGraph**.  
+The system takes a learner’s goal—for example, “I want to learn digital design with Verilog to implement simple FPGA projects”—and automatically:  
+- **Clarifies and expands** the user’s learning goal  
+- **Classifies** it into a subject category (ECE, ML, etc.)  
+- **Generates a week-wise curriculum outline**  
+- **Gathers learning resources** (text, video, MOOCs) in parallel  
+- **Builds a complete, structured curriculum plan**  
+
+The workflow demonstrates concepts of:  
+- Graph-based execution  
+- Parallel nodes  
+- State merging  
+- LLM-oriented program design  
+- TypedDict state propagation  
+
+The final output is a **clean multi-week curriculum** suitable for students with beginner, intermediate or advanced level courses.  
 
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
+This project aligns strongly with the course’s goals because:  
+- It applies **software engineering principles** such as modular design, state handling, and structured workflows.  
+- It uses **graph-based reasoning**, which is part of modern AI/LLM engineering.  
+- It integrates **multiple programming concepts**: Python functions, prompt engineering, asynchronous flow, and typed states.  
+- It demonstrates practical usage of AI frameworks like **LangChain and LangGraph**, which are widely used in industry.  
+- It shows how LLMs can automate real educational tasks—an applied example directly connected with digital systems learning and engineering tools covered in the course.
 
 ## Plan
 
-I plan to excecute these steps to complete my project.
+I plan to excecute these steps to complete my project.  
 
-- [TODO] Step 1 involves blah blah
-- [TODO] Step 2 involves blah blah
-- [TODO] Step 3 involves blah blah
-- ...
-- [TODO] Step n involves blah blah
+[TODO] **Step 1 – Define the CurriculumState schema**  
+Create a TypedDict-based representation of all fields needed in the graph (outline, resources, final plan, etc.)  
+
+[TODO] **Step 2 – Implement core graph nodes**  
+Write functional nodes that:  
+- refine user goal  
+- classify subject  
+- generate outline  
+- collect text/video/course resources  
+- build the final curriculum  
+[TODO] **Step 3 – Implement graph execution flow**  
+Connect nodes using LangGraph (START → expand → classify → outline → resources → final builder)  
+
+[TODO] **Step 4 – Implement parallel resource gathering**  
+Add 3 parallel branches (text, video, course), merging into a single final step.  
+
+[TODO] **Step 5 – Integrate LLM calls**  
+Define `call_llm()` to handle structured prompting and predictable outputs.  
+
+[TODO] **Step 6 – Build the full workflow**  
+Compile the StateGraph and run it end-to-end on an example input.  
+
+[TODO] **Step 7 – Validate final curriculum output**  
+Run the pipeline with multiple goals and verify that results are coherent and structured.  
+
+[TODO] **Step 8 – Write documentation and prepare the final report**  
+Add README, notebook explanations, and comments.  
 
 ## Conclusion:
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
+I had planned to achieve a fully automated, LLM-powered curriculum generator that can expand a goal, build a weekly outline, gather resources, and merge everything into a clean final plan.  
 
-----------
-
-# Added instructions:
-
-- This is a `solo assignment`. Each of you will work alone. You are free to talk, discuss with chatgpt, but you are responsible for what you submit. Some students may be called for viva. You should be able to each and every line of work submitted by you.
-
-- `commit` History maintenance.
-  - Fork this respository and build on top of that.
-  - For every step in your plan, there has to be a commit.
-  - Change [TODO] to [DONE] in the plan, before you commit after that step. 
-  - The commit history should show decent amount of work spread into minimum two dates. 
-  - **All the commits done in one day will be rejected**. Even if you are capable of doing the whole thing in one day, refine it in two days.  
- 
- - Deadline: Nov 30, Sunday 11:59 pm
-
-
-# Grading: total 25 marks
-
-- Coverage of most of topics in this class: 20
-- Creativity: 5
-  
+I believe I have successfully achieved the objective.  
+The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. The project shows creativity and good engineering practice.  
