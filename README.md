@@ -1,4 +1,4 @@
-# Project report Template
+# Project report
 
 ## Title: AI-Powered Automatic Curriculum Generator Using LangGraph
 
