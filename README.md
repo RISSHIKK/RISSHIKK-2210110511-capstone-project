@@ -61,10 +61,3 @@ Run the pipeline with multiple goals and verify that results are coherent and st
 
 [TODO] **Step 8 – Write documentation and prepare the final report**  
 Add README, notebook explanations, and comments.  
-
-## Conclusion:
-
-I had planned to achieve a fully automated, LLM-powered curriculum generator that can expand a goal, build a weekly outline, gather resources, and merge everything into a clean final plan.  
-
-I believe I have successfully achieved the objective.  
-The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. The project shows creativity and good engineering practice.  
