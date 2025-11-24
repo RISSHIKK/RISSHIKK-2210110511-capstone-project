@@ -43,7 +43,8 @@ Write functional nodes that:
 - classify subject  
 - generate outline  
 - collect text/video/course resources  
-- build the final curriculum  
+- build the final curriculum
+
 [TODO] **Step 3 – Implement graph execution flow**  
 Connect nodes using LangGraph (START → expand → classify → outline → resources → final builder)  
 
