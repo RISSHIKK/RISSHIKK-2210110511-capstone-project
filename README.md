@@ -40,7 +40,7 @@ I plan to excecute these steps to complete my project.
 [DONE] **Step 1 – Define the CurriculumState schema**  
 Create a TypedDict-based representation of all fields needed in the graph (outline, resources, final plan, etc.)
 
-[PARTIAL] **Step 2 – Implement core graph nodes**  
+[DONE] **Step 2 – Implement core graph nodes**  
 Write functional nodes that:
 
 - refine user goal
@@ -48,18 +48,18 @@ Write functional nodes that:
 - generate outline
 - build the final curriculum
 
-[TODO] **Step 3 - Add aditional node in the execution flow**
+[DONE] **Step 3 - Add aditional node in the execution flow**
 Write functional nodes that:
 
 - collect text/video/course resources
 
-[TODO] **Step 4 – Implement graph execution flow**  
+[PARTIAL] **Step 4 – Implement graph execution flow**  
 Connect nodes using LangGraph (START → expand → classify → outline → resources → final builder)
 
 [TODO] **Step 5 – Implement parallel resource gathering**  
 Add 3 parallel branches (text, video, course), merging into a single final step.
 
-[TODO] **Step 6 – Integrate LLM calls**  
+[DONE] **Step 6 – Integrate LLM calls**  
 Define `call_llm()` to handle structured prompting and predictable outputs.
 
 [TODO] **Step 7 – Build the full workflow**  
@@ -67,6 +67,3 @@ Compile the StateGraph and run it end-to-end on an example input.
 
 [TODO] **Step 8 – Validate final curriculum output**  
 Run the pipeline with multiple goals and verify that results are coherent and structured.
-
-[TODO] **Step 9 – Write documentation and prepare the final report**  
-Add README, notebook explanations, and comments.
