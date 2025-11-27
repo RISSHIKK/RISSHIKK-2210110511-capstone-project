@@ -37,10 +37,10 @@ This project aligns strongly with the course’s goals because:
 
 I plan to excecute these steps to complete my project.
 
-[TODO] **Step 1 – Define the CurriculumState schema**  
+[DONE] **Step 1 – Define the CurriculumState schema**  
 Create a TypedDict-based representation of all fields needed in the graph (outline, resources, final plan, etc.)
 
-[TODO] **Step 2 – Implement core graph nodes**  
+[PARTIAL] **Step 2 – Implement core graph nodes**  
 Write functional nodes that:
 
 - refine user goal
