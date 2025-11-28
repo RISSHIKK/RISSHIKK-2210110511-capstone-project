@@ -48,7 +48,7 @@ Write functional nodes that:
 - generate outline
 - build the final curriculum
 
-[DONE] **Step 3 - Add aditional node in the execution flow**
+[DONE] **Step 3 - Add aditional node in the execution flow**  
 Write functional nodes that:
 
 - collect text/video/course resources
@@ -76,4 +76,4 @@ Run the graph on LangGraph Studio to observe & visualize the working of all the 
 I had planned to achieve a fully automated, LLM-powered curriculum generator that can expand a goal, build a weekly outline, gather resources, and merge everything into a clean final plan.
 
 I believe I have successfully achieved the objective.  
-The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. The project shows creativity and good engineering practice.
+The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. This was also observed and visualized by implementing the graph on LangGraph Studio.
