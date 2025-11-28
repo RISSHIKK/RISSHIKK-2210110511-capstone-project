@@ -5,7 +5,7 @@
 ## Overview
 
 This project implements an **LLM-driven curriculum generation** system using **LangGraph**.  
-The system takes a learner’s goal—for example, “I want to learn digital design with Verilog to implement simple FPGA projects”—and automatically:
+The system takes a learner’s goal - for example, “I want to learn digital design with Verilog to implement simple FPGA projects” - and automatically:
 
 - **Clarifies and expands** the user’s learning goal
 - **Classifies** it into a subject category (ECE, ML, etc.)
@@ -31,7 +31,7 @@ This project aligns strongly with the course’s goals because:
 - It uses **graph-based reasoning**, which is part of modern AI/LLM engineering.
 - It integrates **multiple programming concepts**: Python functions, prompt engineering, asynchronous flow, and typed states.
 - It demonstrates practical usage of AI frameworks like **LangChain and LangGraph**, which are widely used in industry.
-- It shows how LLMs can automate real educational tasks—an applied example directly connected with digital systems learning and engineering tools covered in the course.
+- It shows how LLMs can automate real educational tasks - an applied example directly connected with digital systems learning and engineering tools covered in the course.
 
 ## Plan
 
@@ -53,17 +53,27 @@ Write functional nodes that:
 
 - collect text/video/course resources
 
-[PARTIAL] **Step 4 – Implement graph execution flow**  
+[DONE] **Step 4 – Implement graph execution flow**  
 Connect nodes using LangGraph (START → expand → classify → outline → resources → final builder)
 
-[TODO] **Step 5 – Implement parallel resource gathering**  
+[DONE] **Step 5 – Implement parallel resource gathering**  
 Add 3 parallel branches (text, video, course), merging into a single final step.
 
 [DONE] **Step 6 – Integrate LLM calls**  
 Define `call_llm()` to handle structured prompting and predictable outputs.
 
-[TODO] **Step 7 – Build the full workflow**  
+[DONE] **Step 7 – Build the full workflow**  
 Compile the StateGraph and run it end-to-end on an example input.
 
-[TODO] **Step 8 – Validate final curriculum output**  
+[DONE] **Step 8 – Validate final curriculum output**  
 Run the pipeline with multiple goals and verify that results are coherent and structured.
+
+[DONE] **Step 9 - Implement & observe on LangGraph Studio**
+Run the graph on LangGraph Studio to observe & visualize the working of all the states in the graph for better understanding.
+
+## Conclusion:
+
+I had planned to achieve a fully automated, LLM-powered curriculum generator that can expand a goal, build a weekly outline, gather resources, and merge everything into a clean final plan.
+
+I believe I have successfully achieved the objective.  
+The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. The project shows creativity and good engineering practice.
