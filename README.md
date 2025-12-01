@@ -77,3 +77,5 @@ I had planned to achieve a fully automated, LLM-powered curriculum generator tha
 
 I believe I have successfully achieved the objective.  
 The system executes smoothly, generates structured outputs, and clearly demonstrates graph-based LLM workflows. This was also observed and visualized by implementing the graph on LangGraph Studio.
+
+**Here is the video explanation of the project:** https://drive.google.com/file/d/1CWYN_tuk8RAjnhjKpYp_2AepQPstPwuG/view?usp=sharing
